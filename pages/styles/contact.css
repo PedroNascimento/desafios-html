@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+:root {
+  --body-bg-color: #202024;
+  --text-color: #e1e1e6;
+  --text-color-rs: #996dff;
+  --title-color: #04d361;
+  --bg-button: #00b37e;
+  --bg-button-hover: #00875f;
+  --color-shape-primary: #323238;
+  --color-rs-low: #633bbc;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto;
+  font-size: 1em;
+  color: var(--text-color);
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+  justify-content: center;
+  background-color: var(--body-bg-color);
+}
+
+fieldset {
+  background: var(--color-shape-primary);
+  padding: 1em 1.5em;
+}
+
+div {
+  margin-bottom: 20px;
+}
+
+.legend {
+  font-size: 1.2em;
+  color: var(--text-color);
+  background: var(--color-rs-low);
+  border: none;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+input,
+select,
+textarea {
+  border: 1px solid #59429d;
+  border-radius: 5px;
+  padding: 0.2em;
+}
+
+.check {
+  color: var(--text-color);
+}
+
+button {
+  font-size: 1.2em;
+  background: var(--bg-button);
+  color: var(--text-color);
+  border: 0;
+  border-radius: 5px;
+  margin-bottom: 1em;
+  padding: 0.2em 0.6em;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  position: relative;
+  cursor: pointer;
+}
+
+button:hover {
+  background: var(--bg-button-hover);
+}
